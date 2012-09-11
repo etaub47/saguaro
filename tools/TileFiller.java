@@ -5,6 +5,8 @@ import java.io.*;
 
 public class TileFiller
 {
+    // usage: java TileFiller <input> > <output>
+    
     public static void main (String[] args) throws Exception
     {
         int[][] values = new int[16][64];
